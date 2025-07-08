@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is namaste react ",
+  
+  "scripts": {
+    "test": "just"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VelakaturiAnusha05/namaste-react.git"
+  },
+  "keywords": [
+    "reactcourse"
+  ],
+  "author": "anusha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VelakaturiAnusha05/namaste-react/issues"
+  },
+  "homepage": "https://github.com/VelakaturiAnusha05/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist":[
+    "last 2 Chrome version"
+  ]
+}
