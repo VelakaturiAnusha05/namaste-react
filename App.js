@@ -1,23 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-const parent=React.createElement(
-    "div",
-    {id:"parent"},[
-    React.createElement(
-        "div",
-        {id:"child"},[
-        React.createElement("h1",{},"I'm h1 tag"),
-        React.createElement("h1",{},"I'm anusha")
+import App from './App';
 
-    ]), React.createElement(
-        "div",
-        {id:"child2"},[
-        React.createElement("h1",{},"I'm h2 tag"),
-        React.createElement("h1",{},"I'm h2 tag")
+//React.createElement==> object ==> HTMLElement(render)
 
-    ]),
+//const heading= React.createElement(
+    //"h1",
+    //{id: "heading"},
+  //  "Namaste React"
+//);
+//console.log(heading);
+//jsx - is not Html in js , it is html like syntax or xml
+const jsxHeading = <h1 id="heading">Namaste React using jsx</h1>;
+console.log(jsxHeading);
+const root= ReactDOM.createRoot(document.getElementById("root"));
 
-]);
-console.log(parent);
-const root=ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(jsxHeading);
